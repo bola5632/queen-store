@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queen Store - Earn with Us!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            flex: 1;
+        }
+        nav a:hover {
+            background-color: #4caf50;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #4caf50;
+        }
+        .join-us {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .join-us:hover {
+            background-color: #e64a19;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+            padding: 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            section {
+                margin: 10px;
+            }
+            nav a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Queen Store</h1>
+        <p>Earn with us – Get 20 EGP for every new customer!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#earnings">How to Earn</a>
+        <a href="#join">Join Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Queen Store is an innovative network marketing project focusing on selling accessories, lingerie, and bags. We offer you the opportunity to earn an additional income in a simple and guaranteed way. All you need to do is promote our products, and you'll get a commission for every new customer who purchases through your link.</p>
+    </section>
+
+    <!-- Earnings Section -->
+    <section id="earnings">
+        <h2>How to Earn 20 EGP with Queen Store?</h2>
+        <p>Our system is super simple! You can earn <span class="highlight">20 EGP</span> for every new customer who buys using your unique link. The money will be sent directly to you via <strong>Vodafone Cash</strong> after the new customer completes their order.</p>
+        <p>How it works:</p>
+        <ul>
+            <li>Sign up with us as a distributor.</li>
+            <li>Share your unique link with friends or on social media.</li>
+            <li>For every customer who uses your link to purchase, you get 20 EGP instantly!</li>
+        </ul>
+        <p>It's that easy – earn money while staying at home!</p>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join">
+        <h2>How to Join Us</h2>
+        <p>Joining <strong>Queen Store</strong> is incredibly easy! Just follow these steps:</p>
+        <ul>
+            <li>Register your details with us, and we’ll send you your unique link.</li>
+            <li>Start sharing your link and promoting our products.</li>
+            <li>The more sales you generate, the more money you make!</li>
+        </ul>
+        <div class="join-us">
+            <a href="mailto:example@email.com" style="color: white;">Join Us Now</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to start with us, feel free to reach out through:</p>
+        <ul>
+            <li>Phone: 0123456789</li>
+            <li>Email: <a href="mailto:example@email.com">example@email.com</a></li>
+            <li>Address: Fashion Street, Cairo, Egypt</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Queen Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
